@@ -1,7 +1,8 @@
 package com.example.citati12;
 
 import jakarta.validation.constraints.NotBlank;
-
+import lombok.Data;
+@Data
 public class Quote {
     private int id;
     @NotBlank(message = "Text cannot be blank")
